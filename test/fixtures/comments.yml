@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stars: 1
+  body: MyText
+  local_user: one
+  match_user: one
+
+two:
+  stars: 1
+  body: MyText
+  local_user: two
+  match_user: two

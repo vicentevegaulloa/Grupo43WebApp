@@ -1,0 +1,10 @@
+<h1>Editing Comment</h1>
+
+<% if match_user_signed_in? %>
+  <% if current_match_user == @comment.match_user%>
+    <%= render 'form', comment: @comment %>
+  <% end %>
+<% end %>
+
+<%= link_to 'Show', @comment %> |
+<%= link_to 'Back', comments_path %>
